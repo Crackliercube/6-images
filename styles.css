@@ -1,0 +1,49 @@
+html {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+p {
+    line-height: 1.4;
+    font-size:18px
+}
+
+.by-line {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.by-line-link {
+    color: rgb(10, 161, 161);
+}
+
+.wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.pipe {
+    color: #ddd;
+}
+
+.blog-image {
+    padding-top: 30px;
+    border-bottom: 6px solid #fcc80a;
+    max-width: 100%;
+}
+
+.caption {
+    background-color: #eee;
+    padding: 15px;
+    margin-top: -4px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.has-drop-cap::first-letter {
+    initial-letter: 3;
+    color: #fcc80a;
+    margin-right: 8px;
+}
